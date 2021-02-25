@@ -1,0 +1,68 @@
+@-moz-document regexp(".*high.banqer.co\\/(accounts|dashboard|profile).*") {
+body {
+    color: #fff
+}
+html {
+    background-color: #0f3852
+}
+.app-sidebar__appSidebar--O-in9 {
+    background: #103146;
+}
+.navbar__navbar--3S8Ez {
+    background: #003f5f;
+    border-color: #fff;
+    border-bottom-color: #3d579e;
+}
+.kohorts-overlay {
+    background: #000;
+    color: #fff
+}
+.kohorts-app-loading::after {
+    content:"Dark Mode for Banquer by Foopoa"
+    /* yeah you can change this just don't delete the credits at the bottom */
+}
+.app-layout {
+    background-color: #0f3852
+}
+.dashboard__card--10Gh_ {
+    background-color: #022740;
+}
+.dashboard__card--10Gh_ .dashboard__taskContainer--1Ypv5 {
+    background-color: #13345d!important
+}
+.tracker-summary-chart__trackerSummaryChartComponent--Qnm24 {
+    background-color: #13345d
+}
+.tracker-summary-chart__trackerSummaryChartComponent--Qnm24 .tracker-summary-chart__loadingOverlay--2IFR6 {
+    background-color: #13345d
+}
+.tracker-summary-chart__trackerSummaryChartComponent--Qnm24 .tracker-summary-chart__loadingOverlay--2IFR6 .tracker-summary-chart__loadingPie--J18Rz {
+    border-color: #022740
+}
+.tracker-summary-chart__trackerSummaryChartComponent--Qnm24 .tracker-summary-chart__loadingOverlay--2IFR6 .tracker-summary-chart__loadingChart--2LF8D {
+    background-color: #022740
+}
+body .ct-grid {
+    stroke: rgba(1, 1, 1, .5)
+}
+.dashboard__card--10Gh_ .dashboard__taskContainer--1Ypv5 {
+    border-bottom-color: rgba(1, 1, 1, .5);
+    border-top-color: rgba(1, 1, 1, .5);
+}
+.app-sidebar__championedBy--3GzRq {
+    background-color: rgba(0, 0, 0, 0);
+}
+.spinner>div {
+	animation: rainbowthing 1.4s infinite ease-in-out both
+}
+
+@keyframes rainbowthing {
+  	0%   {background-color: skyblue; transform: scale(0);}
+    80%, 100% { transform: scale(0); }
+    40% { transform: scale(1.0); }
+ 	100% {background-color: lime;}
+}
+/* this epic theme made by foopoa */
+/* i dont know why i made this */
+/* https://github.com/foopoa */
+}

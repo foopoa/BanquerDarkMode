@@ -1,4 +1,4 @@
-@-moz-document regexp(".*high.banqer.co\\/(accounts|dashboard|profile).*") {
+@-moz-document regexp(".*high.banqer.co\\/(accounts|dashboard|profile|careers|stock-exchange|property|budgeting).*") {
 body {
     color: #fff
 }
@@ -18,13 +18,22 @@ html {
     color: #fff
 }
 .kohorts-app-loading::after {
-    content:"Dark Mode for Banquer by Foopoa"
-    /* yeah you can change this just don't delete the credits at the bottom */
+    content:"amogus ඞ"
+    /* change this at will */
 }
 .app-layout {
-    background-color: #0f3852
+    background-color: #0f3852;
 }
-.dashboard__card--10Gh_ {
+.app-layout {
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1483326184198795197/10C4651D59CC3CC5049A955BE151FB806B322F53/");
+    /* you can change the url to any image you want */
+    background-size: 200px auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    animation: scrollthing 60s infinite linear reverse; /* comment this line out if you want no background animation */
+} /* comment this out if you dont want a image background */
+ .dashboard__card--10Gh_ {
     background-color: #022740;
 }
 .dashboard__card--10Gh_ .dashboard__taskContainer--1Ypv5 {
@@ -53,16 +62,35 @@ body .ct-grid {
     background-color: rgba(0, 0, 0, 0);
 }
 .spinner>div {
-	animation: rainbowthing 1.4s infinite ease-in-out both
+    animation: rainbowthing 1.4s infinite ease-in-out both
 }
-
 @keyframes rainbowthing {
-  	0%   {background-color: skyblue; transform: scale(0);}
-    80%, 100% { transform: scale(0); }
-    40% { transform: scale(1.0); }
- 	100% {background-color: lime;}
+    0% {
+        background-color: skyblue;
+        transform: scale(0);
+    }
+    80%, 100% {
+        transform: scale(0);
+    }
+    40% {
+        transform: scale(1.0);
+    }
+    100% {
+        background-color: lime;
+    }
 }
-/* this epic theme made by foopoa */
+@keyframes scrollthing {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 100% 200%;
+    }
+}
 /* i dont know why i made this */
+
 /* https://github.com/foopoa */
 }

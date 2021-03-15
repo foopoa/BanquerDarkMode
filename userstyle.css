@@ -4,6 +4,9 @@ body {
 html {
     background-color: #0f3852
 }
+.mat-dialog-container {
+	color: #176590;
+}
 .app-sidebar__appSidebar--O-in9 {
     background: #103146;
 }
@@ -56,7 +59,7 @@ html {
     background-color: #0f3852;
 }
 .app-layout {
-    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1483326184198795197/10C4651D59CC3CC5049A955BE151FB806B322F53/");
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1483326184198795197/10C4651D59CC3CC5049A955BE151FB806B322F53/"); /*https://steamuserimages-a.akamaihd.net/ugc/1483326184198795197/10C4651D59CC3CC5049A955BE151FB806B322F53/*/
     /* you can change the url to any image you want */
     background-size: calc(607px/3) auto;
     background-repeat: repeat;

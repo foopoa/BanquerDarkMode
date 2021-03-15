@@ -1,0 +1,1 @@
+.*high.banqer.co\/(accounts|dashboard|profile|careers|stock-exchange|property|budgeting|insurance).*

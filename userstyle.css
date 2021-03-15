@@ -1,4 +1,3 @@
-@-moz-document regexp(".*high.banqer.co\\/(accounts|dashboard|profile|careers|stock-exchange|property|budgeting).*") {
 body {
     color: #fff
 }
@@ -7,6 +6,38 @@ html {
 }
 .app-sidebar__appSidebar--O-in9 {
     background: #103146;
+}
+.dashboard__marketComponent--3tCAO {
+	background-color: #022740
+}
+.dashboard__marketComponent--3tCAO .dashboard__marketCell--FGS6O>div {
+	background-color: #13345d;
+}
+.rental-market__flatCell--1qZae {
+	border-bottom-color: #103146;
+}
+.rental-market__flatCell--1qZae:hover {
+	border-bottom-color: #13345d;
+}
+.btn-outline-green {
+	border-color: #39ab80;
+    background-color: #39ab80;
+    color: #fff
+}
+.btn-outline-red {
+	border-color: #d95555;
+    background-color: #d95555;
+    color: #fff
+}
+.btn-outline-blue {
+	border-color: #007fc5;
+    background-color: #007fc5;
+    color: #fff
+}
+.btn-outline-orange {
+	border-color: #ffad00;
+    background-color: #ffad00;
+    color: #fff
 }
 .navbar__navbar--3S8Ez {
     background: #003f5f;
@@ -27,7 +58,7 @@ html {
 .app-layout {
     background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1483326184198795197/10C4651D59CC3CC5049A955BE151FB806B322F53/");
     /* you can change the url to any image you want */
-    background-size: 200px auto;
+    background-size: calc(607px/3) auto;
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
@@ -81,16 +112,19 @@ body .ct-grid {
 }
 @keyframes scrollthing {
     0% {
-        background-position: 0% 0%;
-    }
-    50% {
-        background-position: 50% 100%;
+        background-position: 0 0;
     }
     100% {
-        background-position: 100% 200%;
+        background-position: calc(607px) calc(821px*2);
     }
+}
+.mat-dialog-container {
+	background-color:#022740
+}
+.modals__sidebar--2sPCD:first-child:after {
+	background-color:#022740;
+    border-right-color:#022740
 }
 /* i dont know why i made this */
 
 /* https://github.com/foopoa */
-}
